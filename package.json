@@ -1,5 +1,5 @@
 {
-  "name": "tomatoes",
+  "name": "rotten-tomatoes-rating",
   "version": "0.0.1",
   "description": "Simple interface for the rotten tomatoes API",
   "keywords": ["rotten tomatoes", "movies", "ratings"],
