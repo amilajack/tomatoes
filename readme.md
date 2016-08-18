@@ -16,7 +16,7 @@ Movie data includes:
 ## Installing
 
 ```bash
-npm install --save moduleName
+npm install --save tomatoes
 ```
 
 ## Usage
