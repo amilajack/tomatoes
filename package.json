@@ -2,19 +2,27 @@
   "name": "rotten-tomatoes-rating",
   "version": "0.0.1",
   "description": "Simple interface for the rotten tomatoes API",
-  "keywords": ["rotten tomatoes", "movies", "ratings"],
-  "author": "Hunter Loftis <hunter@hunterloftis.com>",
-  "repository": { "type": "git", "url": "git@github.com:Skookum/tomatoes.git" },
-  "main": "./index",
-  "engines": { "node": ">= 0.6.x < 0.8.0" },
+  "keywords": [
+    "rotten tomatoes",
+    "movies",
+    "ratings"
+  ],
+  "author": "Amila Welihinda <amilajack@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amilajack/tomatoes.git"
+  },
+  "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "NODE_ENV=test node_modules/.bin/mocha -R list -t 4000 test/*.spec.js"
   },
   "dependencies": {
+    "cheerio": "^0.20.0",
+    "isomorphic-fetch": "^2.2.1",
     "superagent": "0.7.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "chai": "^3.5.0",
+    "mocha": "^2.0.0"
   }
 }
